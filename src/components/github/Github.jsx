@@ -7,7 +7,7 @@ export const Github = () => {
   return (
     <Box
       component={"a"}
-      href="https://github.com/SantiagoArteche"
+      href="https://github.com/DevMate-Jar"
       target="_blank"
       aria-label="github-link"
       sx={{

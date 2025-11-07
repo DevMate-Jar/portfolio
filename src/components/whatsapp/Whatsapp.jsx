@@ -6,7 +6,7 @@ export const Whatsapp = () => {
   return (
     <Box
       component={"a"}
-      href="https://wa.me/3413650110"
+      href="https://wa.me/3412602691"
       target="_blank"
       aria-label="wa-link"
       sx={{

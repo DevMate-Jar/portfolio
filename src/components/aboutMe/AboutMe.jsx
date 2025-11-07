@@ -28,7 +28,7 @@ export const AboutMe = ({ language }) => {
             marginBottom: { xs: 2.6, sm: 2, md: 0 },
           }}
         >
-          {language === "ES" ? "Hola, Soy Santiago " : "Hello, I'm Santiago "}
+          {language === "ES" ? "Hola! Soy Mateo " : "Hello! I'm Mateo "}
         </Box>
         <Box
           component={"p"}
@@ -50,8 +50,8 @@ export const AboutMe = ({ language }) => {
           }}
         >
           {language === "ES"
-            ? "Desarrollador Fullstack apasionado por Javascript y Java. Me encanta aprender y experimentar con nuevas tecnologías, y tengo un gran ojo para los detalles. Siempre me esfuerzo al máximo para ofrecer resultados de alta calidad."
-            : "Full stack developer passionate about Javascript and Java. I love learning and experimenting with new technologies, and I have a great eye for detail. I always put my all into my work to deliver high quality results."}
+            ? "Desarrollador Front-End con gran pasión por JavaScript. Disfruto aprender y explorar nuevas tecnologías, manteniéndome en constante crecimiento profesional. Me caracterizo por mi atención al detalle y por buscar siempre entregar soluciones de alta calidad, combinando dedicación y compromiso en cada proyecto."
+            : "Front-End Developer with a strong passion for JavaScript. I love exploring and mastering new technologies, and I have a keen eye for design and user experience. I’m dedicated to delivering high-quality, polished results and always give my best in every project I work on."}
         </Box>
       </Box>
     </Box>

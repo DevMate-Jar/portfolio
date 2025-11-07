@@ -4,7 +4,7 @@ export const EnglishLevel = ({ language }) => {
   return (
     <Box
       component={"a"}
-      href="https://cert.efset.org/en/1Yr129"
+      href="https://cert.efset.org/en/VHQh8y"
       target="_blank"
       aria-label="english-level-link"
       sx={{
@@ -49,7 +49,7 @@ export const EnglishLevel = ({ language }) => {
           }}
           fontWeight={"bold"}
         >
-          C2
+          C1
         </Box>
         <Box
           sx={{

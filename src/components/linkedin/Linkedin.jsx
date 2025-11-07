@@ -7,7 +7,7 @@ export const Linkedin = () => {
     <>
       <Box
         component={"a"}
-        href="https://www.linkedin.com/in/santiago-arteche/"
+        href="https://www.linkedin.com/in/mateo-arteche-b5a3ab398"
         target="_blank"
         aria-label="linkedin-link"
         sx={{

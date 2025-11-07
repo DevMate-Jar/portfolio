@@ -6,7 +6,7 @@ export const Mail = () => {
     <>
       <Box
         component={"a"}
-        href="mailto:santiagoarteche7@gmail.com"
+        href="mailto:mateovarteche@gmail.com"
         aria-label="mail-link"
         sx={{
           gridArea: "mail",
