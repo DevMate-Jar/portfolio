@@ -9,11 +9,7 @@ export const Cv = () => {
   return (
     <Box
       component={"a"}
-      href={
-        language === "ES"
-          ? `/CV-SANTIAGOARTECHE.pdf`
-          : `/CV-SANTIAGOARTECHE-EN.pdf`
-      }
+      href={language === "ES" ? `/CV-MATEOARTECHE.pdf` : `/CV-MATEOARTECHE.pdf`}
       target="_blank"
       aria-label="cv-link"
       sx={{
