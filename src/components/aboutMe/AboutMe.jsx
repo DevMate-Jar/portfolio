@@ -51,7 +51,7 @@ export const AboutMe = ({ language }) => {
         >
           {language === "ES"
             ? "Desarrollador Front-End con gran pasión por JavaScript. Disfruto aprender y explorar nuevas tecnologías, manteniéndome en constante crecimiento profesional. Me caracterizo por mi atención al detalle y por buscar siempre entregar soluciones de alta calidad, combinando dedicación y compromiso en cada proyecto."
-            : "Front-End Developer with a strong passion for JavaScript. I love exploring and mastering new technologies, and I have a keen eye for design and user experience. I’m dedicated to delivering high-quality, polished results and always give my best in every project I work on."}
+            : "Front-End Developer with a strong passion for JavaScript. I love exploring and mastering new technologies, and I have a good eye for design and user experience. I’m dedicated to delivering high-quality, polished results and always give my best in every project I work on."}
         </Box>
       </Box>
     </Box>
