@@ -48,7 +48,7 @@ export const ChatBotIntPresentational = ({
                 : { xs: "1.3rem", sm: "2.4rem", md: "2.7rem", lg: "3rem" },
           }}
         >
-          Santiago Bot
+          Mateo Bot
         </Box>
         <Box
           sx={{
@@ -99,8 +99,8 @@ export const ChatBotIntPresentational = ({
             }}
           >
             {language === "ES"
-              ? "Hola, soy el bot de Santiago, que te gustaria saber ?"
-              : "Hello, I'm Santiago bot, what do you want to know ?"}
+              ? "Hola, soy el bot de Mateo, que quieres aprender ?"
+              : "Hello, I'm Mateo bot, what are you looking for ?"}
           </Box>
         </Box>
         <Box
