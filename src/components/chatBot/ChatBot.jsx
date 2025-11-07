@@ -23,9 +23,9 @@ export const ChatBot = () => {
           ":hover": {
             transform: {
               xs: "scale(1.01)",
-              sm: "scale(1.03)",
-              md: "scale(1.04)",
-              lg: "scale(1.06)",
+              sm: "scale(1.02)",
+              md: "scale(1.03)",
+              lg: "scale(1.035)",
             },
           },
           transition: "0.5s",

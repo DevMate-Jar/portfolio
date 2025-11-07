@@ -79,12 +79,12 @@ export const Grid = () => {
             "language darkMode"
             "projects projects"
             "linkedin age"
-            "github github "
-            "tech cv"
+            "github github"
+            "tech tech"
             "englishLevel wa"
             "weather weather"
-            "mail chatbot"
-            "certificate certificate"
+            "mail cv"
+            "chatbot chatbot"
             `,
             sm: `
             "aboutMe aboutMe aboutMe"
@@ -93,15 +93,15 @@ export const Grid = () => {
             "github github tech"
             "englishLevel mail wa"
             "weather weather weather"
-            "certificate cv chatbot"
+            "cv chatbot chatbot"
             `,
             md: `
           "aboutMe aboutMe aboutMe language"
           "aboutMe aboutMe aboutMe darkMode " 
           "age linkedin projects projects"
           "github github tech englishLevel"
-          "mail weather weather wa"
-          "certificate certificate cv chatbot"
+          "mail chatbot chatbot wa"
+          "weather weather weather cv"
           `,
           },
           justifyContent: "center",
@@ -120,7 +120,7 @@ export const Grid = () => {
         <Mail />
         <Weather />
         <EnglishLevel language={language} />
-        <Certificate language={language} />
+        {/* <Certificate language={language} /> */}
         <Cv />
         <ChatBot />
       </Box>

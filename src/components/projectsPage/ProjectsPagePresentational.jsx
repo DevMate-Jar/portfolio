@@ -107,10 +107,10 @@ export const ProjectsPagePresentational = ({
                 },
               }}
             >
-              {language === "ES" ? "Proyectos" : "Projects"}
+              {language === "ES" ? "En construcción..." : "Coming soon..."}
             </Box>
           </Box>
-          <Box
+          {/* <Box
             sx={{
               display: "grid",
               gridTemplateColumns: {
@@ -1960,7 +1960,7 @@ export const ProjectsPagePresentational = ({
                 )}
               </Box>
             </Box>
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </>
