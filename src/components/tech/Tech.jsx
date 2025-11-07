@@ -1,6 +1,13 @@
 import { Box } from "@mui/material";
 import { IoLogoReact } from "react-icons/io5";
-import { FaGitAlt, FaGithub, FaJava } from "react-icons/fa";
+import {
+  FaGitAlt,
+  FaGithub,
+  FaJava,
+  FaHtml5,
+  FaCss3Alt,
+  FaPython,
+} from "react-icons/fa";
 import { SiJavascript, SiMysql } from "react-icons/si";
 
 export const Tech = () => {
@@ -12,11 +19,11 @@ export const Tech = () => {
         borderRadius: 3,
         gap: { xs: 1, lg: 2 },
         fontSize: {
-          xs: "1.6rem",
-          sm: "2rem",
-          md: "2.32rem",
-          lg: "2.7rem",
-          xl: "2.9rem",
+          xs: "2.6rem",
+          sm: "2.6rem",
+          md: "2.8rem",
+          lg: "3.3rem",
+          xl: "3.7rem",
         },
         padding: {
           xs: 1,
@@ -27,6 +34,9 @@ export const Tech = () => {
         flexWrap: "wrap",
       }}
     >
+      <FaHtml5 color="#e34c26" />
+      <FaCss3Alt color="#264de4" />
+      <FaPython color="#306998" />
       <SiJavascript color="yellow" />
       <FaJava color="#1e88e5" />
       <IoLogoReact color="rgb(13,202,240)" />
